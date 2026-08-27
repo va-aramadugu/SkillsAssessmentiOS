@@ -1,0 +1,81 @@
+# ---- Xcode ----
+## User settings
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+## Xcode 8 and earlier
+*.xcscmblueprint
+*.xccheckout
+## Build products
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+*.app
+*.o
+*.LinkFileList
+*.hmap
+## Obj-C/Swift specific
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+## Xcode Cloud / Instruments
+*.trace
+*.xcresult
+ci_scripts/.env
+
+# ---- Swift Package Manager ----
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+!SkillsAssessmentiOS.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# ---- CocoaPods / Carthage (not used, but harmless) ----
+Pods/
+Carthage/Build/
+
+# ---- fastlane ----
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# ---- Editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Secrets / env ----
+.env
+.env.*
+*.pem
+*.p12
+*.mobileprovision
+*.cer
+
+# ---- Interviewer material (belt and braces) ----
+*InterviewerNotes*
+ANSWER_KEY*
